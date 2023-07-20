@@ -1,0 +1,16 @@
+popsize 10
+tradeoff 1
+beta 1
+delta 1
+resource 100
+hsymmetry 1
+nrounds 10
+mutrate 0.0001
+mutsdev 0.02
+dispersal 0.1
+tend 100
+tsave 20
+savepars 1
+savelog 0
+talkative 1
+whattosave 1
