@@ -34,7 +34,6 @@ Do not provide the extension of the data files in \code{variables} (".dat").
 
 root <- system.file("extdata", "sim-example", package = "reschoicer")
 read_data(root, "time")
-read_data(root, c("time", "ecologicalIsolation"))
 
 }
 \seealso{
