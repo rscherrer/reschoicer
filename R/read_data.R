@@ -23,7 +23,6 @@
 #'
 #' root <- system.file("extdata", "sim-example", package = "reschoicer")
 #' read_data(root, "time")
-#' read_data(root, c("time", "ecologicalIsolation"))
 #'
 #' @export
 

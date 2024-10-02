@@ -1,11 +1,17 @@
 Package: reschoicer
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Read the Reschoice Data
+Version: 1.0
+Author: Raphaël Scherrer
+Maintainer: Raphaël Scherrer <r.scherrer@rug.nl> <raphael.scherrer@evobio.eu>
+Description: A series of functions to read simulation data from the reschoice project.
+  Check <https://github.com/rscherrer/reschoice> for details.
+License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    purrr,
+    dplyr,
+    stringr,
+    tibble
